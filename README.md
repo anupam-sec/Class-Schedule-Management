@@ -17,6 +17,51 @@ The **Class Schedule Management System** is a Spring Boot-based web application 
 - **Build Tool**: Maven
 - **Libraries**: Project Lombok, Spring Data JPA
 
+## Project Demonstration
+**1. User Authentication, Access Control and Registration**
+<p align="center">
+  <img src="screenshots/Error-message-with-bad-credentials.png" width="450" alt="Login page with message">
+  <br> <i>Figure 1: Admin and User Login page with message for entering wrong username or password.</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/Login-with-Student-id.png" width="450" alt="Student login to view class schedule">
+  <br> <i>Figure 2: A student logs into the website to see his class sechedule.</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/Registration-Form.png" width="450" alt="Registration form">
+  <br> <i>Figure 3: Registration Form.</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/Sample-Registration.png" width="450" alt="Sample registration">
+  <br> <i>Figure 4: Sample Registration.</i>
+</p>
+
+**2. Admin Making Real-time Updates**
+<p align="center">
+  <img src="screenshots/Login-with-Cr-id.png" width="450" alt="Admin Dashboard">
+  <br> <i>Figure 5: Admin Dashboard. Admin need to click the "Edit" button to make updates to the schedule.</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/Edit-monday-p2-with-cr-id.png" width="450" alt="Admin making updates">
+  <br> <i>Figure 6: Admin making updates to the time of the 2nd period of Monday. He can also edit the subject name. Updated time and subject name will be shown on both Student and Admin Dashboard.</i>
+</p>
+
+**3. Database Schema**
+<p align="center">
+  <img src="screenshots/class-schedule-database.png" width="450" alt="Schedule Database">
+  <br> <i>Figure 7: Class Schedule Database.</i>
+</p>
+
+<p align="center">
+  <img src="screenshots/user-database.png" width="450" alt="User database">
+  <br> <i>Figure 8: User Database.</i>
+</p>
+
+
 ## 📂 Project Structure
 - `src/main/java`: Contains the Spring Boot application logic, including controllers, entities, and repositories.
 - `src/main/resources/templates`: Contains Thymeleaf HTML templates for the UI.
